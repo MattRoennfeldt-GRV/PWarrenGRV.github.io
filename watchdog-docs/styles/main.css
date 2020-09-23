@@ -1,0 +1,171 @@
+html {
+  background-color: #f7f7f7;
+}
+body {
+  margin: 0 auto;
+  max-width: 955px;
+
+  font-family: 'Roboto', sans-serif;
+  color: #4a4a4a;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+section {
+  padding: 0 1.2em;
+}
+a:link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#mainheader {
+  background-color: #a593c2;
+}
+
+nav {
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto 20px;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#leftmenu {
+  float: left;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+#main {
+  float: right;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+footer {
+  clear: both;
+  background-color: #002d72;
+  padding: 20px;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.searchbox {
+  padding: 5px;
+  margin: 10px 10px;
+  width: 200px;
+}
+
+p {
+  font-size: 1.125em;
+  color: #4a4a4a;
+}
+
+li {
+  text-align: left;
+  line-height: 1.5;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  /* letter-spacing: 1.5px; */
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  color: #002d72;
+}
+
+h4 {
+  text-transform: none;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+h5 {
+  text-transform: none;
+  font-size: 1.125em;
+  font-style: italic;
+  color: #5d4a66;
+}
+
+table {
+  border: 0;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 20px;
+  border-spacing: 5px;
+}
+
+/* The <em> tag should be used to represent stress emphasis, like when you'd
+read the emphasized text in a different tone of voice. */
+em {
+  /* text-transform: uppercase;
+  font-style: normal; */
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-features .flex-row {
+  justify-content: space-around;
+  flex-basis: 50%;
+}
+.section-features figure {
+  margin: 10px;
+  flex-basis: 200px;
+  max-width: 300px;
+  flex-grow: 1;
+}
+
+.section-features figure > figcaption {
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.125em;
+  color: #002d72;
+  line-height: 1.5;
+  font-style: italic;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
