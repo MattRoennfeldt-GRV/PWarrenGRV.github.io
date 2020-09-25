@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9122960-31"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-9122960-31');
+    </script>
     <meta charset="utf-8" />
     <title>Watchdog FAQs</title>
     <meta name="author" content="Watchdog Racing" />
@@ -45,7 +56,7 @@
 <body style="text-align: left">
     <section>
         <p></p>
-        <a href="http://toappsto.re/watchdoggrv"><img alt="Watchdog blackbook is here! Download the new mobile form guide today." src="../images/image015.png" width="100%" padding=20px />
+        <a href="http://toappsto.re/watchdoggrv"><img alt="Watchdog blackbook is here! Download the new mobile form guide today." src="../images/image015.png" width="100%" />
         </a>
         <h1 style="text-align: center">
             Watchdog Frequently Asked Questions (FAQ)
@@ -57,7 +68,7 @@
             Questions.
         </p>
     </section>
-    <details>
+    <details id="what_is_blackbook">
         <summary>What is "Blackbook"?</summary>
         <div class="content">
             <p>
@@ -70,7 +81,7 @@
     </details>
 
     <details>
-        <summary>Where is my Blackbook?</summary>
+        <summary id="where_is_blackbook">Where is my Blackbook?</summary>
         <div class="content">
             <p>
                 Your Blackbook is accessed from the main menu in the Watchdog App or
@@ -79,7 +90,7 @@
             <img alt="Watchdog Menu" src="../images/faq/App_Menu-Blackbook.png" width="350" />
         </div>
     </details>
-    <details>
+    <details id="create_watchdog_account">
         <summary>How do I create a Watchdog account?</summary>
         <div class="content">
             <p>
@@ -96,7 +107,7 @@
             </p>
         </div>
     </details>
-    <details>
+    <details id="verify_email_address">
         <summary>How do I verify my account?</summary>
         <div class="content">
             <p>
@@ -108,7 +119,7 @@
             </p>
         </div>
     </details>
-    <details>
+    <details id="watchdog_and_fasttrack_credentials">
         <summary>
             Does my FastTrack Account need to be the same as my Watchdog Account?
         </summary>
@@ -120,7 +131,7 @@
         </div>
     </details>
 
-    <details>
+    <details id="blackbook_edog_comparison">
         <summary>
             How is Blackbook different from FastTrack’s eDog Tracker?
         </summary>
@@ -143,7 +154,7 @@
         </div>
     </details>
 
-    <details>
+    <details id="can_i_import">
         <summary>
             As a FastTrack eDog Tracker user, do I have to find all my favourite
             Dogs again?
@@ -163,7 +174,7 @@
             </p>
         </div>
     </details>
-    <details>
+    <details id="import_from_edog">
         <summary>
             How do I import my tracked dogs from FastTrack eDog Tracker?
         </summary>
@@ -179,7 +190,7 @@
             </p>
         </div>
     </details>
-    <details>
+    <details id="import_again">
         <summary>
             I already have dogs in my Blackbook, can I still import from FastTrack?
         </summary>
@@ -189,7 +200,7 @@
         </div>
 
     </details>
-    <details>
+    <details id="using_blackbook">
         <summary>
             How do I use my Blackbook?
         </summary>
@@ -201,7 +212,7 @@
             <img alt="Using Blackbook" src="../images/faq/Using_Blackbook.PNG" width=50% />
         </div>
     </details>
-    <details>
+    <details id="searching_watchdog">
         <summary>
             How do I search?
         </summary>
@@ -214,7 +225,7 @@
             <img alt="Watchdog Search Results" src="../images/faq/Using_Search-2.PNG" width=50% />
         </div>
     </details>
-    <details>
+    <details id="add_to_blackbook">
         <summary>
             How else can I add entries to my Blackbook?
         </summary>
@@ -232,7 +243,7 @@
             </ul>
         </div>
     </details>
-    <details>
+    <details id="blackbook_comments">
         <summary>
             How do I add or edit my comments in my Blackbook?
         </summary>
@@ -247,7 +258,7 @@
             <img alt="Editing a comment" src="../images/faq/Edit_Comment.PNG" />
         </div>
     </details>
-    <details>
+    <details id="blackbook_comment_privacy">
         <summary>
             Can other people see my Blackbook comments?
         </summary>
@@ -256,7 +267,7 @@
                 No. Your Blackbook comments are for your use only, and protected by your account. Only you can see them.</p>
         </div>
     </details>
-    <details>
+    <details id="remove_from_blackbook">
         <summary>
             How do I remove an entry from my Blackbook?
         </summary>
@@ -266,7 +277,7 @@
             <img alt="Removing a Blackbook entry" src="../images/faq/Blackbook_Remove.PNG" />
         </div>
     </details>
-    <details>
+    <details id="setup_notifications">
         <summary>
             How do I setup my notifications?
         </summary>
@@ -285,7 +296,7 @@
             </ol>
         </div>
     </details>
-    <details>
+    <details id="not_receiving_emails">
         <summary>
             Why am I not receiving my daily emails?
         </summary>
@@ -294,13 +305,13 @@
                 In order for us to send you your daily email reminders, you need to have a verified email account and have email notifications enabled in your profile page.</p>
         </div>
     </details>
-    <details>
+    <details id="not_receiving_alerts">
         <summary>
             Why am I not receiving push alerts?
         </summary>
         <div class="content">
             <p>
-                For you to be able to receive push alerts on your mobile device, you need to ensure you have enabled push alert for the Application in your mobile device settings. Also check that you have enabled them in the Profile page of the Watchdog Apllication.</p>
+                For you to be able to receive push alerts on your mobile device, you need to ensure you have enabled push alert for the Application in your mobile device settings. Also check that you have enabled them in the Profile page of the Watchdog Application.</p>
         </div>
     </details>
 
@@ -313,5 +324,17 @@
         View the Watchdog Application
         <a style="color: yellow" href="https://www.grv.org.au/watchdog-terms-and-conditions/">Terms and Conditions</a>.
     </footer>
-
+    <script>
+        /* Set the open="true" for the element with an ID matching the URL fragment */
+        const frag = window.location.hash.slice(1);
+        if (frag) {
+            const elem = document.getElementById(frag);
+            if (elem) {
+                elem.setAttribute("open", "");
+                setTimeout(function() {
+                    elem.scrollIntoView();
+                });
+            }
+        }
+    </script>
 </body></html>
