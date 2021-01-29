@@ -220,7 +220,7 @@ em {
 }
 
 /* Style the search box inside the navigation bar */
-.dropdown input[type=text] {
+.banner input[type=text] {
   float: right;
   padding: 6px;
   border: none;
