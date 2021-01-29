@@ -13,14 +13,73 @@
         gtag('js', new Date());
         gtag('config', 'UA-9122960-31');
     </script>
-    <meta http-equiv="refresh" content="0 ; url='./whats-new/'" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navmenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!--meta http-equiv="refresh" content="0 ; url='./whats-new/'" /-->
 </head>
 
-<body>
+<body style="text-align: left">
+    <header>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+            <!-- Overlay content -->
+            <div class="overlay-content" style="padding-left: 10px" >
+                <img style="padding-bottom: 30px" alt="Watchdog Logo" src="../images/watchdog_logo-white.svg" />
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <div class="main-nav">
+        <span onclick="openNav()"><i class="fa fa-bars"></i><img style="padding-left:10px" alt="Watchdog Logo" src="../images/watchdog_logo-white.svg" />  <input style="float: right; padding: 6px; border: none; font-size: 14px;" type="text" placeholder="Search..">
+        </span>
+    </div>
+    <p>dasfjaskdjhaskfbsakjbfksadjdfkasjfkasdjfkdj
+    </p>
+
+    <img alt="" style="display: block; width: 100%; height: 10px" src="../images/bottom_banner.svg" />
+    <footer style="text-align: center">
+        Stay in control. Gamble responsibly.<br />
+        If Gambling is a problem for you call Gambler’s Help on
+        <a href="tel:1800858858">1800 858 858</a> or visit
+        <a href="https://responsiblegambling.vic.gov.au/">Responsible Gambling</a>.<br />
+        View the Watchdog Application
+        <a href="https://www.grv.org.au/watchdog-terms-and-conditions/">Terms and Conditions</a>.
+    </footer>
+    <script>
+        /* Open */
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        /* Close */
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+<!--body>
     <header style="text-align: left; background-color: #002d72">
         <img style="horizontal-align: left; vertical-align: middle; padding: 10px" alt="Watchdog Logo" src="./images/watchdog_logo-white.svg" />
 
     </header>
     <p>If this page does not automatically redirect you, please follow <a href="./whats-new/">this link</a> to find out what's new in Watchdog.
     </p>
-</body></html>
+</body--></html>
